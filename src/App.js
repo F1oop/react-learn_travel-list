@@ -26,7 +26,7 @@ function Form() {
   const [quantity, setQuantity] = useState(1);
 
   function handleSubmit(e) {
-    e.preventDafault();
+    e.preventDefault();
 
     if (!description) return;
 
